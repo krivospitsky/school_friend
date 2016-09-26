@@ -13,6 +13,8 @@ module SchoolFriend
       api_method :get_user_photos
       api_method :mark_user_photo,       session_only: true
       api_method :set_album_main_photo
+      api_method :edit_photo
+      api_method :delete_photo
     end
   end
 end
